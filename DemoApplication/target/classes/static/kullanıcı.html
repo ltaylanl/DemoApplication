@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kullanıcı Ayarları Sayfası</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="dropdown">
+            <div class="dropdown-header">Ayarlar</div>
+            <div class="dropdown-content" id="dropdown-content">
+                <!-- App.js ile dinamik olarak yüklenecek -->
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1 id="selecteddropdownItem">Kullanıcı Ayarları Ekranındasınız</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Kullanıcı İsmi</th>
+                    <th>Kullanıcı Soy İsmi</th>
+                    <th>Kullanıcı Sicil No</th>
+                </tr>
+            </thead>
+            <tbody id="kullanıcı-table-body">
+                <!-- Kullanıcı verileri buraya yüklenecek -->
+            </tbody>
+        </table>
+        <button id="duzenleButton">Düzenle</button>
+    </div>
+
+    <!-- Modal Yapısı -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Kullanıcı Bilgilerini Düzenle</h2>
+            <label for="ad">İsim:</label>
+            <input type="text" id="adInput"><br>
+            <label for="soyad">Soy İsim:</label>
+            <input type="text" id="soyadInput"><br>
+            <label for="sicil">Sicil No:</label>
+            <input type="text" id="sicilInput"><br>
+            <button id="guncelleButton">Güncelle</button>
+        </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+    <script src="/js/kullanıcı.js"></script>
+    <link rel="stylesheet" href="/css/kullanıcı.css">
+</body>
+</html>
