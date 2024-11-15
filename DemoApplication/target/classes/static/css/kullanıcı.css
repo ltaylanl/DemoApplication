@@ -1,0 +1,109 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content 
+{
+    padding: 20px;
+    margin-left: 220px;
+    text-align: center; /* İçeriği ortala */
+}
+
+table 
+{
+    margin: 0 auto; /* Tabloyu ortala */
+}
+
+#guncelleButton 
+{
+    display: block;
+    margin: 20px auto 0; /* Üstte 20px boşluk, sağ ve sol otomatik, altta sıfır boşluk */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#guncelleButton:hover 
+{
+    background-color: #45a049;
+}
+
+.form-container 
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+input 
+{
+    margin: 5px 0;
+}
+
+.modal 
+{
+    display: none; /* Modalı gizle */
+    position: fixed; /* Modalın ekranın ortasında olmasını sağlar */
+    z-index: 1; /* Modalın diğer elementlerin üzerinde olmasını sağlar */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Modalın ekranın dışına taşmasını engeller */
+    background-color: rgb(0, 0, 0); /* Modalın arka plan rengi */
+    background-color: rgba(0, 0, 0, 0.4); /* Modalın arka plan rengi ve saydamlığı */
+}
+
+.modal-content
+{
+    background-color: #fefefe; /* Modalın içeriğinin arka plan rengi */
+    margin: 15% auto; /* Modalın içeriğini ekranın ortasına alır */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Modalın genişliği */
+}
+.modal-content button
+{
+    margin-top: 20px;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-content button:hover 
+{
+    background-color: #37c7c2;
+}
+
+.modal-form 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.modal-form label, .modal-form input 
+{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Başlık ve metin kutularını aynı hizada başlatmak için */
+.modal-form label 
+{
+    width: 100px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.modal-form input 
+{
+    width: 200px;
+}

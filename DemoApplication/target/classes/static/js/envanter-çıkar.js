@@ -1,0 +1,1 @@
+//Çıkarma metodu kullanılacak daha sonra bak!!!

@@ -1,0 +1,10 @@
+2024-11-08 15:28:55.770827+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO Kullanıcı (sicil, ad, soyad) VALUES (123456, ""Ali"", ""Veli"")\000d\000a[*]INSERT INTO Kullanıcı (sicil, ad, soyad) VALUES (654321, ""Ayşe"", ""Fatma"")\000d\000aINSERT INTO Kullanıcı (sicil, ad, soyad) VALUES (112233, ""Ahmet"", ""Mehmet"")"; SQL statement:
+INSERT INTO Kullanıcı (sicil, ad, soyad) VALUES (123456, "Ali", "Veli")
+INSERT INTO Kullanıcı (sicil, ad, soyad) VALUES (654321, "Ayşe", "Fatma")
+INSERT INTO Kullanıcı (sicil, ad, soyad) VALUES (112233, "Ahmet", "Mehmet") [42000-224]
+2024-11-08 15:29:42.374409+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO Kullanıcı (sicil, ad, soyad) VALUES (123456, 'Ali', 'Veli')\000d\000a[*]INSERT INTO Kullanıcı (sicil, ad, soyad) VALUES (654321, 'Ayşe', 'Fatma')\000d\000aINSERT INTO Kullanıcı (sicil, ad, soyad) VALUES (112233, 'Ahmet', 'Mehmet')"; SQL statement:
+INSERT INTO Kullanıcı (sicil, ad, soyad) VALUES (123456, 'Ali', 'Veli')
+INSERT INTO Kullanıcı (sicil, ad, soyad) VALUES (654321, 'Ayşe', 'Fatma')
+INSERT INTO Kullanıcı (sicil, ad, soyad) VALUES (112233, 'Ahmet', 'Mehmet') [42000-224]

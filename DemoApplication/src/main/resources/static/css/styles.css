@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.dropdown {
+    cursor: pointer;
+}
+
+.dropdown-header {
+    padding: 10px;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dropdown-content {
+    padding-left: 10px; /* Yazıların bir tık ileriden başlaması */
+}
+
+.dropdown-item {
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin: 3px 0;
+}
+
+.dropdown-item:hover {
+    background-color: #d1d1d1;
+}
+
+.sub-dropdown-header {
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin: 3px 0;
+}
+
+.sub-dropdown-content {
+    padding-left: 10px; /* Yazıların bir tık ileriden başlaması */
+}
+
+.sub-dropdown-item {
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin: 3px 0;
+}
+
+.sub-dropdown-item:hover {
+    background-color: #d1d1d1;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
