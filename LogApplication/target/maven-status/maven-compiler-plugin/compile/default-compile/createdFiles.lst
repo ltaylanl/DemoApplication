@@ -1,0 +1,4 @@
+com\example\log\LogApplication.class
+com\example\log\repository\LogRepository.class
+com\example\log\controller\LogController.class
+com\example\log\model\Log.class
